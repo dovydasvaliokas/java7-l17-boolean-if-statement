@@ -30,7 +30,10 @@ function arSkaiciusYraTeigiamas(skaicius) {
 
 
 /**
- * Ji padaro tą ir tą
+ * Funkcija palygini du skaičius tarpusavyje.
+ * @param {*} sk1 - pirmas lyginamas skaičius
+ * @param {*} sk2 - antras lyginamas skaičius
+ * @returns 1 - jeigu pirmas didesnis; 0 - jeigu jie lygūs; -1 jeigu antras didesnis.
  */
 function palygintiDuSkaicius(sk1, sk2) {
     if (sk1 === sk2) {
